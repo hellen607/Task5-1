@@ -1,0 +1,42 @@
+.calculator {
+  max-width: 500px;
+  background-color: #000000;
+  padding: 20px;
+  border-radius: 15px;
+  color: white;
+}
+
+.button-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  justify-content: center;
+}
+
+.button-grid button {
+  flex: 1 1 22%;
+  padding: 20px;
+  font-size: 1.5rem;
+}
+
+#screen {
+  font-size: 1.5rem;
+  text-align: right;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.btn-operator {
+  background-color: #ffcc33;
+  color: black;
+}
+
+.btn-clear {
+  background-color: #dc3545;
+  color: white;
+}
+
+.btn-equals {
+  background-color: #28a745;
+  color: white;
+}
